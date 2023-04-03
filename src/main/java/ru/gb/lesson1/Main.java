@@ -38,14 +38,14 @@ public class Main {
         System.out.println(counts[n]);
     }
 
-//    static int count(int n) {
-//        if (n == 2) {
-//            return 1;
-//        } else if (n == 3) {
-//            return 2;
-//        }
-//
-//        return count(n - 1) + count(n - 2) + 2;
-//    }
+    static int count(int n) {
+        if (n == 2) {
+            return 1;
+        } else if (n == 3) {
+            return 2;
+        }
+
+        return count(n - 1) + count(n - 2) + 2;
+    }
 
 }
